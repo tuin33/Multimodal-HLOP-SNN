@@ -1,6 +1,5 @@
 # Multimodal-HLOP-SNN
-我们小组基于Hebbian Learning based Orthogonal Projection for Continual Learning of Spiking Neural Networks **(ICLR 2024)**. \[[openreview](https://openreview.net/forum?id=MeB86edZ1P)\] \[[arxiv](https://arxiv.org/abs/2402.11984)\]，基于论文代码，实现一个基于多模态的持续学习的分类任务。[小组报告及分工说明](./docs/第八组报告.pdf)
-
+我们小组基于Hebbian Learning based Orthogonal Projection for Continual Learning of Spiking Neural Networks **(ICLR 2024)**. \[[openreview](https://openreview.net/forum?id=MeB86edZ1P)\] \[[arxiv](https://arxiv.org/abs/2402.11984)\]，基于论文代码，实现一个基于多模态的持续学习的分类任务。
 
 ## 改进点：多模态分类任务的扩展
 本项目将原有的单模态图像分类任务扩展为多模态任务，结合图像和音频信息进行分类。本项目将原有的单模态图像分类任务扩展为多模态分类任务，融合了图像和音频两种信息输入，以实现更为复杂和精准的分类。传统的单模态图像分类任务通常只利用视觉信息进行学习和推理，限制了模型的表现能力。而在现实世界中，许多任务都涉及到多种感知信息的交互，例如视觉与听觉的结合，这种跨模态的信息融合对于提高模型的泛化能力和鲁棒性至关重要。通过这一改进，模型能够处理更复杂的信息输入，并在多源信息融合方面展现出较强的能力。
